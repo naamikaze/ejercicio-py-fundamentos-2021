@@ -3,10 +3,10 @@ cuenta = 0
 
 if num > 0:
     print(num)
-    num *= num
+    num *= 2
     print(num)
 
 else:
     print(num)
-    num = num*num*num
+    num *= 3
     print(num)
