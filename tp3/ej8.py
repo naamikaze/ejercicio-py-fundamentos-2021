@@ -17,7 +17,7 @@ def diez(importe):
     final = importe-importe*0.02
     if final > 120:
         final = importe
-        final += 120
+        final -= 120
     return final
 #
 
