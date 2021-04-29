@@ -28,10 +28,11 @@ def diez(importe):
 #
 def treinta(importe): 
     porc = importe*0.10
-    final = importe+porc
-    if final < 150:
+    if porc > 150:
         final = importe 
-        final += 500
+        final += 150
+    else:
+        final = importe+porc
     return final
 #
 
