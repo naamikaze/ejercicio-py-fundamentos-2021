@@ -4,6 +4,7 @@ pagar= int(input('Ingrese el importe su factura: '))
 final = 0
 calculo = 0
 porc = 0
+var = 0
 
 
 #
@@ -14,10 +15,13 @@ def veinte(importe):
 
 #
 def diez(importe): 
-    final = importe-importe*0.02
-    if final > 120:
+    var = importe*0.02
+    if var > 120:
         final = importe
         final -= 120
+    else:
+        final = importe-importe*0.02
+
     return final
 #
 
