@@ -8,7 +8,6 @@ while cant_paq < 1:
     cant_paq = int(input('Ingrese la cantidad de paquetes a enviar: '))
     print()
 while num_paq <= cant_paq:
-    #Habia un comentario de validación pero la consigna no pide validación alguna
     print('Para el paquete número', num_paq, 'ingrese')
     peso_paq = int(input('Cuánto pesa el paquete: '))
     vol_paq = int(input('Cuál es el volumen del paquete: '))

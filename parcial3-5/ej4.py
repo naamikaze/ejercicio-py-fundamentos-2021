@@ -1,6 +1,6 @@
 cont = 0
 pares = 0
-for x in range(5):
+for x in range(20):
     num = int(input('Ingrese un nro: '))
     if num % 2 == 0:
         cont+=1
