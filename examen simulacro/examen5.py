@@ -20,6 +20,3 @@ for x in range(paquetes):
 
 print(f'La suma de todos los importes es de: {calculo}')
 
-
-
-
