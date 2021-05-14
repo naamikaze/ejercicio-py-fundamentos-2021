@@ -7,3 +7,4 @@ for x in range(20):
         pares+=num
 promedio = pares/cont
 print(f'El promedio de los numeros pares es: {promedio}')
+
