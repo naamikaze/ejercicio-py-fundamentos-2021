@@ -4,9 +4,9 @@ mayor = -1
 
 while num != -1:
     num = int(input('Ingrese un nro: '))
-    if num > mayor:
+    if num > mayor and num != -1:
         mayor = num
-    elif num < menor:
+    elif num < menor and num != -1:
         menor = num
     if num == -1:
         print()
