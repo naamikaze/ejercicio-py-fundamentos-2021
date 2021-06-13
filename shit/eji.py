@@ -25,7 +25,7 @@ for x in range(3):
 #Busco en la lista "listcateg" todos los nro 3
 largocateg = len(listcateg)
 for i in range(largocateg):
-    if listcateg[i] == '3':
+    if listcateg[i] == 3:
         contbaz += 1
 print()
 print(f'Cantidad de productos de bazar: {contbaz}')
@@ -50,6 +50,18 @@ listprecio[pos] = nuevo_precio
 print(f'El precio de {listnom[pos]} ha sido cambiado a {listprecio[pos]}')
 
 # //ACA ARRANCA EL PUNTO 3//
+largoprecio = len(listprecio)
 buscar_categoria = int(input('Ingrese la categoría que desea buscar: '))
-for l in range(largocateg):
+posc = 0
+sumas = 0
+
+for k in range(largocateg):
+    if listcateg[k] == buscar_categoria:
+        posc +=1
+        sumas += listprecio[k]
+
+promedio = sumas/posc
+print(f'El promedio de la categoria {buscar_categoria} es {promedio}')
+
+
 
