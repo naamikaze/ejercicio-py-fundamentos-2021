@@ -1,4 +1,8 @@
 #Declaro todas las listas y variables que voy a usar
+menor = 999999
+produ = 0
+posi = 0
+producto_menor = 0
 cont=-1
 contbaz = 1
 listnom = []
@@ -63,5 +67,18 @@ for k in range(largocateg):
 promedio = sumas/posc
 print(f'El promedio de la categoria {buscar_categoria} es {promedio}')
 
+#ACA ARRANCA EL PUNTO 4
 
+for h in range(largocateg):
+    posi += 1
+    if listacateg[k] == 2:
+        if listcant[k] < menor:
+            menor = listcant[k] 
+            producto_menor = posi
 
+produ = listnom[producto_menor]
+print(f'El precio con menor stock de la categoria alimentos es: {produ} con un stock de {producto_menor}')
+
+#ACA ARRANCA EL PUNTO 5
+
+for b in range(largocateg)
