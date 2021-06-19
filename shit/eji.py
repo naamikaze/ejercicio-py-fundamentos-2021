@@ -63,5 +63,7 @@ for k in range(largocateg):
 promedio = sumas/posc
 print(f'El promedio de la categoria {buscar_categoria} es {promedio}')
 
+#ACA EMPIEZA EL PUNTO 4
+
 
 

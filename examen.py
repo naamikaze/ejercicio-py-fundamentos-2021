@@ -1,4 +1,3 @@
-
 # Simulacro 2do Parcial
 import random
 dias = 30
@@ -6,9 +5,7 @@ produccion = []
 for i in range(0, dias):
 	# Carga enteros entre 1 y 1000 al azar en el vector producción
 	produccion.append(random.randint(1,1000))
-
 # A partir de acá poné tu código
-
 
 #Voy a poner la lista acá y en el punto 3 como para saber bien que está funcionando todo
 print(f'Produccion Actual: {produccion}')
@@ -43,6 +40,7 @@ def punto3():
     while True:
         dia = int(input('Ingrese el dia que desea ingresar: ')) 
         if dia < 31:
+            dia-=1
             producido = int(input('Ingrese la cantidad producida: '))
             produccion[dia] = producido 
             print(f'El día {dia} hubo una produccion de {produccion[dia]}')
@@ -108,8 +106,4 @@ def menu():
     pass
 
 menu()
-
-
-
-
 
