@@ -3,14 +3,14 @@
 import random
 bitcoin = []
 for i in range(0, 30):
-    bitcoin.append(random.randint(1,1000))
+	bitcoin.append(random.randint(1,1000))
 print(f'{bitcoin}')
 
 def punto1():
 #1. Solicitar al usuario 2 días e indicar el valor mínimo del Bitcoin entre esos 2 días.
     while True:
-        dia1 = int(input('Ingrese el primer dia: '))
-        dia2 = int(input('Ingrese el segundo dia: '))
+        dia1 = int(input('Ingrese el primer dia: ')) 
+        dia2 = int(input('Ingrese el segundo dia: ')) 
         if dia2 > dia1 and dia1 >= 1 and dia1 <= 30 and dia2 <= 30:
             primeravez = True
             menorr=0
@@ -118,6 +118,6 @@ def menu():
         else:
             print(f'Ingrese una opción valida:')
 
-menu()
+menu() 
 
 
